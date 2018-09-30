@@ -1,0 +1,55 @@
+body {
+  background: skyblue;
+}
+
+header {
+  background: skyblue;
+  color:black;
+  font-size:30px;
+  font-weight:bold;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+img {
+  margin :auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: contain;
+  align-content: center;
+  width: 160px;
+  height: 160px;
+  border: 2px solid;
+  color: black;
+  resize: both;
+  overflow: scroll;
+}
+  
+hr{
+  color:black;
+ background-color: black;
+ height: 5px;
+ } 
+
+h1 {
+font-size: 24px;
+font-weight: 30px;
+}
+
+li {
+  margin: 25px;
+}
+
+footer p{
+  background:skyblue;
+  color: black;
+  font-size:30px;
+  font-weight:bold;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-align:center;
+}
