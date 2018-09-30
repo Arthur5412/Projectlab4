@@ -1,5 +1,4 @@
 'use strict';
-
 var correctAnswers = 0;
 var game = prompt('Lets play a game! Whats your name?');
 console.log(game.toUpperCase());
@@ -7,10 +6,7 @@ var gameresponse = ' Awesome ' + game + ' lets start! ';
 alert(gameresponse);
 
 
-
-
 function myColor(){
-
 var color = prompt('Is my favourite color bule?');
 console.log(color.toUpperCase());
 var colorYes = 'My favourite color is black';
@@ -18,13 +14,13 @@ var colorNo = 'you are not right';
 
 if (color.toUpperCase() === 'YES') {
   alert(colorYes);
-} else {
+  } else {
   correctAnswers++;
   alert(colorNo);
 }
-myColor();
+}
 
-function myPet(){
+function myPet()
 var pet = prompt('Do I have a pet?');
 console.log(pet.toUpperCase());
 var petYes = 'Yes! I got a pet and his name is gulliver';
@@ -36,10 +32,10 @@ if (pet.toUpperCase() === 'YES') {
 } else {
   alert(petNo);
 }
-myPet();
 }
 
-function haveSkyDived(){
+
+function mySky()
 var skydived = prompt('Have I ever skydived?');
 console.log(skydived.toUpperCase());
 var skydivedyes = 'i have never skydived';
@@ -51,9 +47,10 @@ if (skydived.toUpperCase() === 'yes') {
 } else {
   alert(skydivedno);
 }
-haveSkyDived();
 }
-function haveRunMiles(){
+
+
+function myRun(){
 var run = prompt('Have i ever run 11 miles in 1 hours?');
 console.log(run.toUpperCase());
 var runYes = 'I have run those miles';
@@ -65,10 +62,9 @@ if (run.toUpperCase() === 'YES') {
 } else {
   alert(runNo);
 }
-haveRunMiles();
-}
 
-function myGuessNumbers(){
+
+
 var tries = 0;
 var myFavoriteNumber = 3;
 while (tries < 4) {
@@ -86,12 +82,12 @@ while (tries < 4) {
   }
 
 }
-myGuessNumbers();
 }
 
 
 
-function myGuessMusic(){
+
+function myMusic{
 var favmusic = ['hip hop', 'country', 'electronic', 'house'];
 var tries = 0;
 while (tries < 6) {
@@ -118,4 +114,4 @@ while (tries < 6) {
 }
 alert(game + ' you got ' + correctAnswers + ' correct answers out of 7! Thanks for playing! ');
 }
-myGuessNumbers();
+
